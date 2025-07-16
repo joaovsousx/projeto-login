@@ -4,7 +4,7 @@
     #FFFFFF
     #000000
     Verde: #49a09d
-    Lilás: #5f2c82 
+    Lilás: #ad51eb 
 */
 
 *{
@@ -38,6 +38,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
